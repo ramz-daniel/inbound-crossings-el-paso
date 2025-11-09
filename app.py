@@ -11,6 +11,7 @@ load_figure_template('LUX')
 
 # Initialize the app
 app = Dash()
+server = app.server
 
 # App layout
 app.layout = html.Div(
