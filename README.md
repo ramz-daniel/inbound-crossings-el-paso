@@ -23,6 +23,7 @@ Then export data.
 ```python
 sorted_df.to_csv('sorted_df.csv')
 ```
+It can be downloaded from this [google spreadsheet url](https://docs.google.com/spreadsheets/d/e/2PACX-1vRshUEKUsxhuXYLvqflTXHF5n58OlVbqkaqaMLo9onEiE-m6mBMWRZvfuewsQxW2yiii089fxJIqdi8/pub?gid=1310938893&single=true&output=csv).
 
 In the pyhton app, group by port code and get the group corresponding to port 2402.
 
