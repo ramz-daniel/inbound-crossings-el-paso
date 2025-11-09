@@ -3,7 +3,9 @@ from dash import Dash, html, dash_table, dcc, Input, Output
 import plotly.express as px
 from dash_bootstrap_templates import load_figure_template
 
-sorted_df=pd.read_csv('sorted_df.csv')
+url = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRshUEKUsxhuXYLvqflTXHF5n58OlVbqkaqaMLo9onEiE-m6mBMWRZvfuewsQxW2yiii089fxJIqdi8/pub?gid=1310938893&single=true&output=csv"
+
+sorted_df=pd.read_csv(url)
 by_port_code = sorted_df.groupby("Port Code")
 el_paso_2402 = by_port_code.get_group(2402)
 
