@@ -33,3 +33,5 @@ el_paso_2402 = by_port_code.get_group(2402)
 ```
 Finally the code in the app.py file renders the [interactive graph](https://inbound-crossings-el-paso.onrender.com/).
 
+![Plot](plot.png)
+
